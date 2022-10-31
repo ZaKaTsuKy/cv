@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    min-width: 720px;
+    max-width: 2440px
+  }
+
+/*Classe introduction*/  
+.introduction, .contact {
+    z-index: 1;
+    color: aliceblue;
+    position: absolute;
+    border: 2px solid white;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+#introduction{
+    transform: translate(-50%, -50%);
+    top: 15%; left: 50%;
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+}
+.objectif{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/*Classe data -> données personnelles*/ 
+.contact{
+    left: 2%;
+    transform: translateY(60%);
+}
+#contact{
+    
+}
+
+
+/*animation matrix*/
+canvas {
+    z-index: -1;
+    position:absolute;
+    margin: auto;
+  }
